@@ -14,5 +14,5 @@ RUN python3 -m unittest test_app.py
 EXPOSE 5000
 ENV FLASK_APP=app.py
 
-# Run Flask application only if tests are successful
+# Run Flask application
 CMD ["flask", "run", "--host", "0.0.0.0"]
