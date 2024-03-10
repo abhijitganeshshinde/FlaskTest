@@ -5,6 +5,7 @@
 1. Create a Flask application with a `Dockerfile`.
 2. Write your Flask application.
 3. Create a test file named `test_app.py` using pytest.
+4. Create Docker File With Multilevel
 
 ## Step 2: Create GitHub Actions Workflow
 
@@ -27,3 +28,4 @@ Create a GitHub Actions workflow YAML file (e.g., `.github/workflows/python-app.
 
 1. Pull Command :- docker pull ashinde1997/flaskapp
 2. Run Command :- docker run -p 5000:5000 -e ENV_VARIABLE=value ashinde1997/flaskapp:latest
+![alt text](2S.png)![alt text](1S.PNG)
